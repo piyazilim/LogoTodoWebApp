@@ -1,6 +1,7 @@
 # TodoApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
+**_Username: Admin && Password: Admin_**
 
 
 ## Set up
@@ -16,8 +17,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 5 - Run the command `npm start` or `ng serve` to start serving the project.
 
 6 - That it's, your application is running in `http://localhost:4200`.
-
-7 - **_Username: Admin && Password: Admin_**
 
 
 
