@@ -25,12 +25,15 @@ export class TodoItemsComponent implements OnInit {
   }
 
   delete(Id) {
-    const answer = confirm('Do you want to delete todo item with id: ' + Id);
-    if (answer) {
-      this.todoItemService.deleteTodoItem(Id).subscribe((data) => {
-        this.loadTodoItems();
-      });
-    }
+    const self = this;
+    alertify.confirm('Do you want to delete item?',
+    // tslint:disable-next-line: only-arrow-functions
+    function(){
+      self.todoItemService.deleteTodoItem(Id).subscribe((data) => {
+        self.loadTodoItems();
+          });
+      alertify.success('TodoItem deleted!');
+    },).setHeader('');
    }
 
 }
