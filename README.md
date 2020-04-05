@@ -17,7 +17,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 6 - That it's, your application is running in `http://localhost:4200`.
 
-7 - **_Username: Admin && Password: Admin_
+7 - **_Username: Admin && Password: Admin_**
 
 
 
